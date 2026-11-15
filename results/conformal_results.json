@@ -1,0 +1,23 @@
+{
+  "target_coverage": 0.9,
+  "q_hat": 0.9495111806797853,
+  "n_calibration": 516,
+  "calib_score_mean": 0.863667930483839,
+  "calib_score_median": 0.8811456601087507,
+  "empirical_coverage": 0.9216216216216216,
+  "avg_set_size": 7.7662162162162165,
+  "coverage_by_bucket": {
+    "early": 0.9390243902439024,
+    "mid": 0.926829268292683,
+    "late": 0.8991935483870968
+  },
+  "n_test": 740,
+  "exchangeability_caveat": "Split-conformal prediction assumes exchangeability (i.i.d. data). Temporal knowledge graph events are temporally dependent, so the marginal coverage guarantee is approximate, not exact. Distribution shift between calibration and test periods may cause the empirical coverage to deviate from the target.",
+  "set_size_distribution": {
+    "min": 3,
+    "max": 10,
+    "mean": 7.7662162162162165,
+    "median": 8.0,
+    "std": 1.7624289923995655
+  }
+}

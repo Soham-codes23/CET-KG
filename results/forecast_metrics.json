@@ -1,0 +1,19 @@
+{
+  "accuracy": 0.1662162162162162,
+  "macro_f1": 0.15217515485127317,
+  "top3_accuracy": 0.5148648648648648,
+  "n_test_samples": 740,
+  "n_classes": 10,
+  "classes": [
+    "Agree",
+    "Aid",
+    "Attack",
+    "Cooperate",
+    "Criticize",
+    "Negotiate",
+    "Protest",
+    "Sanction",
+    "Threaten",
+    "Visit"
+  ]
+}

@@ -1,0 +1,467 @@
+[
+  {
+    "prediction": {
+      "head": "India",
+      "relation": "Visit",
+      "tail": "Egypt",
+      "timestamp": 300
+    },
+    "evidence_events": [
+      {
+        "head_entity": "India",
+        "tail_entity": "Egypt",
+        "relation": "Visit",
+        "timestamp": 240,
+        "intensity": 0.6047,
+        "relevance_score": 0.8500000000000001
+      },
+      {
+        "head_entity": "Egypt",
+        "tail_entity": "India",
+        "relation": "Aid",
+        "timestamp": 297,
+        "intensity": 0.2513,
+        "relevance_score": 0.7925
+      },
+      {
+        "head_entity": "India",
+        "tail_entity": "Egypt",
+        "relation": "Negotiate",
+        "timestamp": 297,
+        "intensity": 0.784,
+        "relevance_score": 0.7925
+      },
+      {
+        "head_entity": "India",
+        "tail_entity": "Egypt",
+        "relation": "Cooperate",
+        "timestamp": 292,
+        "intensity": 0.2908,
+        "relevance_score": 0.78
+      },
+      {
+        "head_entity": "Egypt",
+        "tail_entity": "India",
+        "relation": "Cooperate",
+        "timestamp": 257,
+        "intensity": 0.3171,
+        "relevance_score": 0.6925
+      },
+      {
+        "head_entity": "Egypt",
+        "tail_entity": "Israel",
+        "relation": "Visit",
+        "timestamp": 275,
+        "intensity": 0.4133,
+        "relevance_score": 0.4875
+      },
+      {
+        "head_entity": "India",
+        "tail_entity": "China",
+        "relation": "Visit",
+        "timestamp": 270,
+        "intensity": 0.8374,
+        "relevance_score": 0.47500000000000003
+      },
+      {
+        "head_entity": "Egypt",
+        "tail_entity": "Saudi_Arabia",
+        "relation": "Visit",
+        "timestamp": 266,
+        "intensity": 0.3597,
+        "relevance_score": 0.465
+      },
+      {
+        "head_entity": "Brazil",
+        "tail_entity": "Egypt",
+        "relation": "Visit",
+        "timestamp": 257,
+        "intensity": 0.3107,
+        "relevance_score": 0.4425
+      },
+      {
+        "head_entity": "Egypt",
+        "tail_entity": "Israel",
+        "relation": "Threaten",
+        "timestamp": 299,
+        "intensity": 0.7238,
+        "relevance_score": 0.34750000000000003
+      }
+    ],
+    "explanation_text": "Prediction: India --[Visit]--> Egypt at day 300\n\nSupporting temporal evidence:\n  \u2022 5 recent event(s) between India and Egypt (most recent at day 297).\n  \u2022 5 recent 'Visit' event(s) involving these entities.\n\nTop evidence events (by relevance):\n  1. Day 240: India --[Visit]--> Egypt  (relevance: 0.85)\n  2. Day 297: Egypt --[Aid]--> India  (relevance: 0.79)\n  3. Day 297: India --[Negotiate]--> Egypt  (relevance: 0.79)\n  4. Day 292: India --[Cooperate]--> Egypt  (relevance: 0.78)\n  5. Day 257: Egypt --[Cooperate]--> India  (relevance: 0.69)",
+    "n_candidates_considered": 103,
+    "method_label": "Evidence-based prototype explanation. Relevance scores are heuristic (entity overlap + relation match + temporal recency), not model-gradient-based attribution."
+  },
+  {
+    "prediction": {
+      "head": "UK",
+      "relation": "Agree",
+      "tail": "France",
+      "timestamp": 316
+    },
+    "evidence_events": [
+      {
+        "head_entity": "France",
+        "tail_entity": "UK",
+        "relation": "Criticize",
+        "timestamp": 304,
+        "intensity": 0.7771,
+        "relevance_score": 0.77
+      },
+      {
+        "head_entity": "UK",
+        "tail_entity": "France",
+        "relation": "Criticize",
+        "timestamp": 262,
+        "intensity": 0.9462,
+        "relevance_score": 0.665
+      },
+      {
+        "head_entity": "India",
+        "tail_entity": "France",
+        "relation": "Agree",
+        "timestamp": 315,
+        "intensity": 0.5807,
+        "relevance_score": 0.5475
+      },
+      {
+        "head_entity": "Germany",
+        "tail_entity": "France",
+        "relation": "Agree",
+        "timestamp": 314,
+        "intensity": 0.5499,
+        "relevance_score": 0.545
+      },
+      {
+        "head_entity": "Turkey",
+        "tail_entity": "UK",
+        "relation": "Agree",
+        "timestamp": 313,
+        "intensity": 0.2161,
+        "relevance_score": 0.5425
+      },
+      {
+        "head_entity": "UK",
+        "tail_entity": "USA",
+        "relation": "Agree",
+        "timestamp": 308,
+        "intensity": 0.5186,
+        "relevance_score": 0.53
+      },
+      {
+        "head_entity": "USA",
+        "tail_entity": "UK",
+        "relation": "Agree",
+        "timestamp": 305,
+        "intensity": 0.3083,
+        "relevance_score": 0.5225
+      },
+      {
+        "head_entity": "France",
+        "tail_entity": "Germany",
+        "relation": "Agree",
+        "timestamp": 304,
+        "intensity": 0.2899,
+        "relevance_score": 0.52
+      },
+      {
+        "head_entity": "India",
+        "tail_entity": "France",
+        "relation": "Agree",
+        "timestamp": 303,
+        "intensity": 0.3351,
+        "relevance_score": 0.5175000000000001
+      },
+      {
+        "head_entity": "Russia",
+        "tail_entity": "UK",
+        "relation": "Agree",
+        "timestamp": 289,
+        "intensity": 0.4395,
+        "relevance_score": 0.48250000000000004
+      }
+    ],
+    "explanation_text": "Prediction: UK --[Agree]--> France at day 316\n\nSupporting temporal evidence:\n  \u2022 2 recent event(s) between UK and France (most recent at day 304).\n  \u2022 8 recent 'Agree' event(s) involving these entities.\n\nTop evidence events (by relevance):\n  1. Day 304: France --[Criticize]--> UK  (relevance: 0.77)\n  2. Day 262: UK --[Criticize]--> France  (relevance: 0.67)\n  3. Day 315: India --[Agree]--> France  (relevance: 0.55)\n  4. Day 314: Germany --[Agree]--> France  (relevance: 0.55)\n  5. Day 313: Turkey --[Agree]--> UK  (relevance: 0.54)",
+    "n_candidates_considered": 125,
+    "method_label": "Evidence-based prototype explanation. Relevance scores are heuristic (entity overlap + relation match + temporal recency), not model-gradient-based attribution."
+  },
+  {
+    "prediction": {
+      "head": "UK",
+      "relation": "Attack",
+      "tail": "India",
+      "timestamp": 330
+    },
+    "evidence_events": [
+      {
+        "head_entity": "UK",
+        "tail_entity": "India",
+        "relation": "Agree",
+        "timestamp": 328,
+        "intensity": 0.5,
+        "relevance_score": 0.795
+      },
+      {
+        "head_entity": "UK",
+        "tail_entity": "India",
+        "relation": "Aid",
+        "timestamp": 317,
+        "intensity": 0.4839,
+        "relevance_score": 0.7675000000000001
+      },
+      {
+        "head_entity": "UK",
+        "tail_entity": "India",
+        "relation": "Aid",
+        "timestamp": 314,
+        "intensity": 0.3289,
+        "relevance_score": 0.76
+      },
+      {
+        "head_entity": "India",
+        "tail_entity": "UK",
+        "relation": "Cooperate",
+        "timestamp": 275,
+        "intensity": 0.3725,
+        "relevance_score": 0.6625
+      },
+      {
+        "head_entity": "UK",
+        "tail_entity": "Germany",
+        "relation": "Attack",
+        "timestamp": 315,
+        "intensity": 0.6534,
+        "relevance_score": 0.5125
+      },
+      {
+        "head_entity": "UK",
+        "tail_entity": "Pakistan",
+        "relation": "Attack",
+        "timestamp": 314,
+        "intensity": 0.99,
+        "relevance_score": 0.51
+      },
+      {
+        "head_entity": "UK",
+        "tail_entity": "Iran",
+        "relation": "Attack",
+        "timestamp": 300,
+        "intensity": 0.7706,
+        "relevance_score": 0.47500000000000003
+      },
+      {
+        "head_entity": "Pakistan",
+        "tail_entity": "India",
+        "relation": "Attack",
+        "timestamp": 296,
+        "intensity": 0.8344,
+        "relevance_score": 0.465
+      },
+      {
+        "head_entity": "Egypt",
+        "tail_entity": "UK",
+        "relation": "Attack",
+        "timestamp": 294,
+        "intensity": 0.7537,
+        "relevance_score": 0.46
+      },
+      {
+        "head_entity": "India",
+        "tail_entity": "China",
+        "relation": "Attack",
+        "timestamp": 294,
+        "intensity": 0.6087,
+        "relevance_score": 0.46
+      }
+    ],
+    "explanation_text": "Prediction: UK --[Attack]--> India at day 330\n\nSupporting temporal evidence:\n  \u2022 4 recent event(s) between UK and India (most recent at day 328).\n  \u2022 6 recent 'Attack' event(s) involving these entities.\n\nTop evidence events (by relevance):\n  1. Day 328: UK --[Agree]--> India  (relevance: 0.80)\n  2. Day 317: UK --[Aid]--> India  (relevance: 0.77)\n  3. Day 314: UK --[Aid]--> India  (relevance: 0.76)\n  4. Day 275: India --[Cooperate]--> UK  (relevance: 0.66)\n  5. Day 315: UK --[Attack]--> Germany  (relevance: 0.51)",
+    "n_candidates_considered": 136,
+    "method_label": "Evidence-based prototype explanation. Relevance scores are heuristic (entity overlap + relation match + temporal recency), not model-gradient-based attribution."
+  },
+  {
+    "prediction": {
+      "head": "China",
+      "relation": "Negotiate",
+      "tail": "USA",
+      "timestamp": 345
+    },
+    "evidence_events": [
+      {
+        "head_entity": "USA",
+        "tail_entity": "China",
+        "relation": "Negotiate",
+        "timestamp": 338,
+        "intensity": 0.6516,
+        "relevance_score": 0.9825
+      },
+      {
+        "head_entity": "USA",
+        "tail_entity": "China",
+        "relation": "Negotiate",
+        "timestamp": 335,
+        "intensity": 0.2853,
+        "relevance_score": 0.9750000000000001
+      },
+      {
+        "head_entity": "USA",
+        "tail_entity": "China",
+        "relation": "Negotiate",
+        "timestamp": 333,
+        "intensity": 0.3722,
+        "relevance_score": 0.9700000000000001
+      },
+      {
+        "head_entity": "USA",
+        "tail_entity": "China",
+        "relation": "Negotiate",
+        "timestamp": 326,
+        "intensity": 0.1396,
+        "relevance_score": 0.9525000000000001
+      },
+      {
+        "head_entity": "USA",
+        "tail_entity": "China",
+        "relation": "Negotiate",
+        "timestamp": 316,
+        "intensity": 0.3478,
+        "relevance_score": 0.9275000000000001
+      },
+      {
+        "head_entity": "USA",
+        "tail_entity": "China",
+        "relation": "Negotiate",
+        "timestamp": 311,
+        "intensity": 0.5104,
+        "relevance_score": 0.915
+      },
+      {
+        "head_entity": "China",
+        "tail_entity": "USA",
+        "relation": "Negotiate",
+        "timestamp": 305,
+        "intensity": 0.5359,
+        "relevance_score": 0.9000000000000001
+      },
+      {
+        "head_entity": "USA",
+        "tail_entity": "China",
+        "relation": "Negotiate",
+        "timestamp": 295,
+        "intensity": 0.4824,
+        "relevance_score": 0.8750000000000001
+      },
+      {
+        "head_entity": "USA",
+        "tail_entity": "China",
+        "relation": "Negotiate",
+        "timestamp": 290,
+        "intensity": 0.4169,
+        "relevance_score": 0.8625
+      },
+      {
+        "head_entity": "USA",
+        "tail_entity": "China",
+        "relation": "Agree",
+        "timestamp": 343,
+        "intensity": 0.7628,
+        "relevance_score": 0.795
+      }
+    ],
+    "explanation_text": "Prediction: China --[Negotiate]--> USA at day 345\n\nSupporting temporal evidence:\n  \u2022 10 recent event(s) between China and USA (most recent at day 343).\n  \u2022 9 recent 'Negotiate' event(s) involving these entities.\n\nTop evidence events (by relevance):\n  1. Day 338: USA --[Negotiate]--> China  (relevance: 0.98)\n  2. Day 335: USA --[Negotiate]--> China  (relevance: 0.98)\n  3. Day 333: USA --[Negotiate]--> China  (relevance: 0.97)\n  4. Day 326: USA --[Negotiate]--> China  (relevance: 0.95)\n  5. Day 316: USA --[Negotiate]--> China  (relevance: 0.93)",
+    "n_candidates_considered": 286,
+    "method_label": "Evidence-based prototype explanation. Relevance scores are heuristic (entity overlap + relation match + temporal recency), not model-gradient-based attribution."
+  },
+  {
+    "prediction": {
+      "head": "Japan",
+      "relation": "Negotiate",
+      "tail": "China",
+      "timestamp": 364
+    },
+    "evidence_events": [
+      {
+        "head_entity": "China",
+        "tail_entity": "Japan",
+        "relation": "Negotiate",
+        "timestamp": 360,
+        "intensity": 0.4868,
+        "relevance_score": 0.9900000000000001
+      },
+      {
+        "head_entity": "China",
+        "tail_entity": "Japan",
+        "relation": "Negotiate",
+        "timestamp": 355,
+        "intensity": 0.2684,
+        "relevance_score": 0.9775
+      },
+      {
+        "head_entity": "Japan",
+        "tail_entity": "China",
+        "relation": "Negotiate",
+        "timestamp": 352,
+        "intensity": 0.3493,
+        "relevance_score": 0.9700000000000001
+      },
+      {
+        "head_entity": "Japan",
+        "tail_entity": "China",
+        "relation": "Negotiate",
+        "timestamp": 344,
+        "intensity": 0.3438,
+        "relevance_score": 0.9500000000000001
+      },
+      {
+        "head_entity": "Japan",
+        "tail_entity": "China",
+        "relation": "Negotiate",
+        "timestamp": 343,
+        "intensity": 0.7266,
+        "relevance_score": 0.9475000000000001
+      },
+      {
+        "head_entity": "China",
+        "tail_entity": "Japan",
+        "relation": "Negotiate",
+        "timestamp": 335,
+        "intensity": 0.6213,
+        "relevance_score": 0.9275000000000001
+      },
+      {
+        "head_entity": "Japan",
+        "tail_entity": "China",
+        "relation": "Negotiate",
+        "timestamp": 331,
+        "intensity": 0.1151,
+        "relevance_score": 0.9175000000000001
+      },
+      {
+        "head_entity": "China",
+        "tail_entity": "Japan",
+        "relation": "Negotiate",
+        "timestamp": 330,
+        "intensity": 0.5321,
+        "relevance_score": 0.915
+      },
+      {
+        "head_entity": "Japan",
+        "tail_entity": "China",
+        "relation": "Negotiate",
+        "timestamp": 329,
+        "intensity": 0.3689,
+        "relevance_score": 0.9125000000000001
+      },
+      {
+        "head_entity": "Japan",
+        "tail_entity": "China",
+        "relation": "Negotiate",
+        "timestamp": 318,
+        "intensity": 0.5979,
+        "relevance_score": 0.8850000000000001
+      }
+    ],
+    "explanation_text": "Prediction: Japan --[Negotiate]--> China at day 364\n\nSupporting temporal evidence:\n  \u2022 10 recent event(s) between Japan and China (most recent at day 360).\n  \u2022 10 recent 'Negotiate' event(s) involving these entities.\n\nTop evidence events (by relevance):\n  1. Day 360: China --[Negotiate]--> Japan  (relevance: 0.99)\n  2. Day 355: China --[Negotiate]--> Japan  (relevance: 0.98)\n  3. Day 352: Japan --[Negotiate]--> China  (relevance: 0.97)\n  4. Day 344: Japan --[Negotiate]--> China  (relevance: 0.95)\n  5. Day 343: Japan --[Negotiate]--> China  (relevance: 0.95)",
+    "n_candidates_considered": 158,
+    "method_label": "Evidence-based prototype explanation. Relevance scores are heuristic (entity overlap + relation match + temporal recency), not model-gradient-based attribution."
+  }
+]

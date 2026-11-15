@@ -1,0 +1,71 @@
+{
+  "intensity_noise": [
+    {
+      "accuracy": 0.1972972972972973,
+      "macro_f1": 0.18911579534988937,
+      "top3_accuracy": 0.5297297297297298,
+      "empirical_coverage": 0.9405405405405406,
+      "avg_set_size": 8.21081081081081,
+      "sigma": 0.0
+    },
+    {
+      "accuracy": 0.2,
+      "macro_f1": 0.18585680561899093,
+      "top3_accuracy": 0.5148648648648648,
+      "empirical_coverage": 0.9418918918918919,
+      "avg_set_size": 8.045945945945945,
+      "sigma": 0.1
+    },
+    {
+      "accuracy": 0.1972972972972973,
+      "macro_f1": 0.18469977023487863,
+      "top3_accuracy": 0.5067567567567568,
+      "empirical_coverage": 0.904054054054054,
+      "avg_set_size": 7.6824324324324325,
+      "sigma": 0.2
+    },
+    {
+      "accuracy": 0.1837837837837838,
+      "macro_f1": 0.1716184145105803,
+      "top3_accuracy": 0.5175675675675676,
+      "empirical_coverage": 0.9256756756756757,
+      "avg_set_size": 7.827027027027027,
+      "sigma": 0.3
+    }
+  ],
+  "label_noise": [
+    {
+      "accuracy": 0.1891891891891892,
+      "macro_f1": 0.17925077575364018,
+      "top3_accuracy": 0.5148648648648648,
+      "empirical_coverage": 0.9216216216216216,
+      "avg_set_size": 7.994594594594594,
+      "flip_rate": 0.0
+    },
+    {
+      "accuracy": 0.1972972972972973,
+      "macro_f1": 0.1826476692686311,
+      "top3_accuracy": 0.5067567567567568,
+      "empirical_coverage": 0.9297297297297298,
+      "avg_set_size": 8.056756756756757,
+      "flip_rate": 0.05
+    },
+    {
+      "accuracy": 0.20675675675675675,
+      "macro_f1": 0.1899745962006738,
+      "top3_accuracy": 0.5283783783783784,
+      "empirical_coverage": 0.9162162162162162,
+      "avg_set_size": 7.9324324324324325,
+      "flip_rate": 0.1
+    },
+    {
+      "accuracy": 0.1635135135135135,
+      "macro_f1": 0.15239372547381325,
+      "top3_accuracy": 0.4918918918918919,
+      "empirical_coverage": 0.9324324324324325,
+      "avg_set_size": 8.285135135135135,
+      "flip_rate": 0.2
+    }
+  ],
+  "target_coverage": 0.9
+}
