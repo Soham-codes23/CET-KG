@@ -1,5 +1,3 @@
-# CET-KG — MTE Presentation Package
-
 ## Project Title
 
 **CET-KG: Calibrated & Explainable Temporal Knowledge Graph Forecasting**
